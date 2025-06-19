@@ -29,11 +29,12 @@ Git
 ## Clone the Repository
 Use following commands
 git clone https://github.com/SufiyaShabai/devops_challenge.git
+cd devops_challenge/
 
 ## Docker Instructions
 - Build the Docker Image
 Navigate to the app/ directory:
-cd app
+cd app/
 docker build -t sufiyashabai/simple-time-service .
 -Run the Container
 docker run -p 8080:8080 sufiyashabai/simple-time-service
