@@ -64,5 +64,9 @@ terraform plan
 terraform apply
 
 -Once terraform apply completes, it will print the DNS of the Application Load Balancer:
+alb_dns_name="<dns_name>"
 Test in browser using 
 curl http://your-alb-dns-name.amazonaws.com/
+
+-Use the following command to destroy all resources 
+terraform destroy
