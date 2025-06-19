@@ -26,6 +26,10 @@ AWS CLI
 Terraform
 Git
 
+## Clone the Repository
+Use following commands
+git clone https://github.com/SufiyaShabai/devops_challenge.git
+
 ## Docker Instructions
 - Build the Docker Image
 Navigate to the app/ directory:
