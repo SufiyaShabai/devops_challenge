@@ -46,18 +46,9 @@ The image has been published to Docker Hub and is available publicly:
 Image Link: https://hub.docker.com/r/sufiyashabai/simple-time-service
 
 ##  Deploy to AWS with Terraform
-Steps to Deploy
--Set your AWS credentials securely using environment variables:
-export AWS_ACCESS_KEY_ID=your_access_key
-export AWS_SECRET_ACCESS_KEY=your_secret_key
-export AWS_DEFAULT_REGION=your_region
-
--Navigate to terraform folder
-cd terraform
-
 -AWS Authentication Setup
 Before running terraform apply, ensure you're authenticated to your AWS account. The recommended way to do this is:
-Configure AWS CLI
+Configure AWS CLI-
 Run the following command and provide your IAM user credentials:
 aws configure
 You will be prompted to enter:
