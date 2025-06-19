@@ -55,8 +55,8 @@ aws configure
 You will be prompted to enter:
 AWS Access Key ID
 AWS Secret Access Key
-Default region name (e.g., us-east-1)
-Default output format (press Enter to keep as json
+Default region name 
+Default output format (press Enter to keep as json)
 
 - Initialize Terraform
 terraform init
@@ -70,3 +70,7 @@ curl http://your-alb-dns-name.amazonaws.com/
 
 -Use the following command to destroy all resources 
 terraform destroy
+
+-Resources
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs
+https://docs.docker.com/build/building/best-practices/
